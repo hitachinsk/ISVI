@@ -29,7 +29,7 @@ Then, please run the following commands:
 conda create -n ISVI
 conda activate ISVI
 pip install -r requirements.txt
-bash ffmpeg_install.sh  # If you have installed ffmpeg, this command can be omitted.
+bash install_dependances.sh  # If you have installed ffmpeg, this command can be omitted.
 ```
 
 ## Quick start
