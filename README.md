@@ -33,7 +33,7 @@ bash ffmpeg_install.sh  # If you have installed ffmpeg, this command can be omit
 ```
 
 ## Quick start
-1. Download the pre-trained models and the data.
+1. Download the [pre-trained models](https://drive.google.com/file/d/1EUbMUF8_QGVYh_xoZ9HginmXxF2jnvZz/view?usp=sharing) and the data.
 2. Put the downloaded zip files to the root directory of this project
 3. Run `bash prepare_data.sh` to unzip the files
 4. Run the object removal demo
