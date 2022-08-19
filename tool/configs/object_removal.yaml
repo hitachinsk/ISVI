@@ -1,0 +1,8 @@
+mode: object_removal
+# consistencyThres: 5
+alpha: 0.1
+igfc_ckpts: ../weights/IGFC
+asfn_ckpts: ../weights/ASFN
+flow_mask_dilates: 8
+frame_dilates: 0
+gpu: 0
