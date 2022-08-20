@@ -474,9 +474,7 @@ def video_inpainting(args):
 
         gradient_x[mask_dilated[:, :, indFrame], :, indFrame] = 0
         gradient_y[mask_dilated[:, :, indFrame], :, indFrame] = 0
-
-    # iter = 0
-    # mask_tofill = mask
+        
     gradient_x_filled = gradient_x  
     gradient_y_filled = gradient_y
     mask_gradient = mask_dilated
@@ -514,13 +512,6 @@ def video_inpainting(args):
 
         if np.all(mask_gradient == False):
         	break
-            # save gradients
-            # h, w, c, b = gradient_x_filled.shape
-            # for b_idx in range(b):
-            #     grad_x = gradient_x_filled[:, :, :, b_idx]
-            #     grad_y = gradient_y_filled[:, :, :, b_idx]
-            #     np.save(os.path.join(gradx_dir, '{:05d}.npy'.format(b_idx)), grad_x)
-            #     np.save(os.path.join(grady_dir, '{:05d}.npy'.format(b_idx)), grad_y)
                 
         # get the unfilled masks for all of the frames in the video
         for indFrame in range(nFrame):
@@ -550,16 +541,6 @@ def video_inpainting(args):
         gradient_y_filled[:, :, :, keyFrameInd] = np.concatenate(
             (np.diff(keyFrame, axis=0), np.zeros((1, imgW, 3), dtype=np.float32)), axis=0
         )
-
-        # vis the masks after each iterations
-        # print(f'key frame: {keyFrameInd}')
-        # for mi in range(mask.shape[-1]):
-        #     m = mask[:, :, mi]
-        #     cv2.imwrite('mask/{:05d}.png'.format(mi), m * 255.)
-        # counter += 1
-        # print(f'Counter is: {counter}')
-        # temp = input('kkpsa')
-
 
     # ASFN processing
     gradient_x_refined, gradient_y_refined = asfn_processing(ASFN_model, gradient_x_filled, gradient_y_filled, mask_bkp, device)
