@@ -4,7 +4,7 @@
 
 This repository contains the implementation of the following paper:
 > **Inertia-Guided Flow Completion and Style Fusion for Video Inpainting**<br>
-> [Kaidong Zhang](https://hitachinsk.github.io/), [Jingjing Fu](https://www.microsoft.com/en-us/research/people/jifu/) and [Dong Liu](http://staff.ustc.edu.cn/~dongeliu/)<br>
+> [Kaidong Zhang](https://hitachinsk.github.io/), [Jingjing Fu](https://www.microsoft.com/en-us/research/people/jifu/) and [Dong Liu](https://faculty.ustc.edu.cn/dongeliu/)<br>
 >  IEEE/CVF Conference on Computer Vision and Pattern Recognition 2022 (**CVPR**), 2022<br>
 
 
