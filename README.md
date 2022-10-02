@@ -1,6 +1,6 @@
 # [CVPR 2022] Inertia-Guided Flow Completion and Style Fusion for Video Inpainting
 
-### [[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Inertia-Guided_Flow_Completion_and_Style_Fusion_for_Video_Inpainting_CVPR_2022_paper.pdf)] / [[demo](https://www.youtube.com/watch?v=dHuFDPDWkYc)] / [[Project page](https://hitachinsk.github.io/publication/2022-06-01-Inertia-Guided-Flow-Completion-and-Style-Fusion-for-Video-Inpainting)] / [[Poster](materials/CVPR_poster.pdf)] / [[Slides](materials/Video_ISVI.pdf)]
+### [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Inertia-Guided_Flow_Completion_and_Style_Fusion_for_Video_Inpainting_CVPR_2022_paper.pdf)] / [[Demo](https://www.youtube.com/watch?v=dHuFDPDWkYc)] / [[Project page](https://hitachinsk.github.io/publication/2022-06-01-Inertia-Guided-Flow-Completion-and-Style-Fusion-for-Video-Inpainting)] / [[Poster](materials/CVPR_poster.pdf)] / [Intro]
 
 This repository contains the implementation of the following paper:
 > **Inertia-Guided Flow Completion and Style Fusion for Video Inpainting**<br>
