@@ -61,15 +61,15 @@ If our work inspires your research or some part of the codes are useful for your
 }
 ```
 
-Our other video inpainting paper ([FGT](https://github.com/hitachinsk/FGT), To appear in ECCV 2022):
+Our other video inpainting paper [FGT](https://github.com/hitachinsk/FGT):
 ```bibtex
-@misc{zhang2022flowguided,
-      title={Flow-Guided Transformer for Video Inpainting}, 
-      author={Kaidong Zhang and Jingjing Fu and Dong Liu},
-      year={2022},
-      eprint={2208.06768},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{zhang2022flow,
+  title={Flow-Guided Transformer for Video Inpainting},
+  author={Zhang, Kaidong and Fu, Jingjing and Liu, Dong},
+  booktitle={European Conference on Computer Vision},
+  pages={74--90},
+  year={2022},
+  organization={Springer}
 }
 ```
 
