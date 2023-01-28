@@ -61,7 +61,7 @@ If our work inspires your research or some part of the codes are useful for your
 }
 ```
 
-Our other video inpainting paper [FGT](https://github.com/hitachinsk/FGT):
+Our other video inpainting paper [FGT](https://github.com/hitachinsk/FGT) and [FGT++](https://arxiv.org/abs/2301.10048) (The journal extension of FGT.)
 ```bibtex
 @inproceedings{zhang2022flow,
   title={Flow-Guided Transformer for Video Inpainting},
@@ -70,6 +70,19 @@ Our other video inpainting paper [FGT](https://github.com/hitachinsk/FGT):
   pages={74--90},
   year={2022},
   organization={Springer}
+}
+```
+
+```bibtex
+@misc{https://doi.org/10.48550/arxiv.2301.10048,
+  doi = {10.48550/ARXIV.2301.10048},
+  url = {https://arxiv.org/abs/2301.10048},
+  author = {Zhang, Kaidong and Peng, Jialun and Fu, Jingjing and Liu, Dong},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Exploiting Optical Flow Guidance for Transformer-Based Video Inpainting},
+  publisher = {arXiv},
+  year = {2023},
+  copyright = {arXiv.org perpetual, non-exclusive license}
 }
 ```
 
